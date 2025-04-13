@@ -148,7 +148,7 @@ public class MyArrayList<T extends Comparable<T>> implements MyList<T> {
             int index = 0;
             @Override
             public boolean hasNext() {
-                return index < size;
+                return index < size; //
             }
 
             @SuppressWarnings("unchecked")
