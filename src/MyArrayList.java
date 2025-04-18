@@ -1,4 +1,4 @@
-public class MyArrayList<T extends Comparable<T>> implements MyList<T> {
+public class MyArrayList<T extends Comparable<T>> implements MyList<T>{
     private Object[] data;
     private int size;
 

@@ -1,4 +1,4 @@
-public class MyLinkedList<T> implements MyList<T> {
+public class MyLinkedList<T extends Comparable<T>> implements MyList<T> {
     private MyNode<T> head;
     private MyNode<T> tail;
     private int size;
